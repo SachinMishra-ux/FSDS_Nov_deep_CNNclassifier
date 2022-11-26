@@ -136,3 +136,6 @@ dmypy.json
 
 #models
 *.h5
+artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2022-11-25-21-30-11/train/events.out.tfevents.1669392012.DS-AnareshchandMBP.7010.0.v2
+artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2022-11-26-12-30-18/train/events.out.tfevents.1669446019.DS-AnareshchandMBP.1706.0.v2
+artifacts/prepare_callbacks/tensorboard_log_dir/tb_logs_at_2022-11-26-12-30-18/validation/events.out.tfevents.1669448461.DS-AnareshchandMBP.1706.1.v2
