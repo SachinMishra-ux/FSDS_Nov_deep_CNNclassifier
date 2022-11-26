@@ -33,3 +33,16 @@ STEP 4: Use context manager of mlflow to start run and then log metrics, params 
 
 ## Sample data for testing-
 https://raw.githubusercontent.com/c17hawke/raw_data/main/sample_data.zip
+
+
+### mlflow commands
+mlflow server \
+--backend-store-uri sqlite:///mlflow.db \
+--default-artifact-root ./artifacts \
+--host 0.0.0.0 -p 1234
+
+
+MLFLOW_TRACKING_URI=https://dagshub.com/SachinMishra-ux/FSDS_Nov_deep_CNNclassifier.mlflow \
+MLFLOW_TRACKING_USERNAME=SachinMishra-ux \
+MLFLOW_TRACKING_PASSWORD=d42e1b9a8326a50330860f3b4ee42f73a3f4d919 \
+python script.py
