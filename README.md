@@ -20,8 +20,8 @@
 
 STEP 1: Set the env variable | Get it from dagshub -> remote tab -> mlflow tab
 
-MLFLOW_TRACKING_URI=https://dagshub.com/c17hawke/FSDS_NOV_deepCNNClassifier.mlflow \
-MLFLOW_TRACKING_USERNAME=c17hawke \
+MLFLOW_TRACKING_URI=https://dagshub.com/SachinMishra-ux/FSDS_Nov_deep_CNNclassifier.mlflow \
+MLFLOW_TRACKING_USERNAME=SachinMishra-ux \
 MLFLOW_TRACKING_PASSWORD=<> \
 
 STEP 2: install mlflow
@@ -42,7 +42,3 @@ mlflow server \
 --host 0.0.0.0 -p 1234
 
 
-MLFLOW_TRACKING_URI=https://dagshub.com/SachinMishra-ux/FSDS_Nov_deep_CNNclassifier.mlflow \
-MLFLOW_TRACKING_USERNAME=SachinMishra-ux \
-MLFLOW_TRACKING_PASSWORD=d42e1b9a8326a50330860f3b4ee42f73a3f4d919 \
-python script.py
