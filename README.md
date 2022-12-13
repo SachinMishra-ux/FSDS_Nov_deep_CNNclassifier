@@ -41,4 +41,7 @@ mlflow server \
 --default-artifact-root ./artifacts \
 --host 0.0.0.0 -p 1234
 
-
+For testing:
+```
+pytest -v
+```
